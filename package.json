@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/mhamzahhanif/React-portfolio.git",
   "author": "mhamzahhanif <mhamzah1993@gmail.com>",
-  "license": "MIT"
-}
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+
+"devDependencies": {},
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node server.js"
+}}
