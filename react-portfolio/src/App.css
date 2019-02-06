@@ -1,0 +1,163 @@
+/* Landing Page CSS */
+.header-color {
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.landing-grid {
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.my-img {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.banner-text hr {
+    border-top: 5px dotted whitesmoke;
+    width: 50%;
+    margin: auto;
+}
+
+.banner-text p {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.social-links i {
+    color: whitesmoke;
+    font-size: 5em;
+    padding: 8px;
+}
+
+/* Project Page CSS */
+.git-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+.fa-code-branch {
+    font-size: 25px;
+    color: #FF8235;
+    padding: 8px;
+}
+
+.projects-grid {
+    display: flex;
+}
+
+.projects-head h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+/* Contact Page CSS */
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i {
+    font-size: 55px;
+    padding-right: 5rem;
+}
+
+/* Resume Page CSS */
+
+.resume-right {
+    background-color: #27221F;
+    color: whitesmoke;
+    padding: 2em;
+}
+
+/* About Page CSS */
+
+.about-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.about-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.about-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
